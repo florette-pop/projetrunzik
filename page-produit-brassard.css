@@ -1,0 +1,20 @@
+html body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: absolute;
+  width: 1440px;
+  height: 685px;
+  left: 0px;
+  top: 98px;
+
+  background: radial-gradient(
+    90.9% 471.95% at 0% 87.74%,
+    rgba(49, 47, 46, 0) 1.91%,
+    #0a0909 92.57%
+  );
+}
