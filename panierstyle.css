@@ -72,76 +72,58 @@ li a {
   position: relative;
 }
 
-.text {
-  position: absolute;
-  top: 140px;
-  right: 200px;
-  color: white;
-  width: 300px;
-}
-
 /* body*/
 .titre {
   font-family: "Audiowide-Regular";
-  font-size: 36px;
-  position: absolute;
-width: 216px;
-height: 32px;
-left: 597px;
-top: 199px;
-line-height: 35px;
+  font-size: 30px;
+  width: 20%;
+  margin: 0 auto;
 }
 
-.blockgris{
-  position: absolute;
+.blockgris {
   width: 100%;
   height: 94px;
-  left: 0px;
-  top: 362px;
   background: rgba(196, 196, 196, 0.5);
 }
 
-.products{
+.column {
+  float: left;
+}
+
+.products {
   font-family: "BarlowSemiCondensed-Regular";
   font-size: 24px;
   font-weight: bold;
   width: 100px;
   height: 32px;
-  left: 360px;
-  top: 362px;
 }
-.quantity{
+.quantity {
   font-family: "BarlowSemiCondensed-Regular";
   font-size: 24px;
   font-weight: bold;
   width: 114px;
   height: 26px;
-  left: 658px;
-  top: 392px;
-
 }
-.price{
+.price {
   font-family: "BarlowSemiCondensed-Regular";
   font-size: 24px;
   font-weight: bold;
 }
-.total{
+.total {
   font-family: "BarlowSemiCondensed-Regular";
   font-size: 24px;
   font-weight: bold;
 }
 
-.valide{
-  position: absolute;
+.valide {
   width: 194px;
   height: 43px;
-  left: 1187px;
-  top: 737px;
-  background: #EF682E;
+  background: #ef682e;
   border-radius: 20px;
   font-family: "BarlowSemiCondensed-Regular";
   font-size: 14px;
-  color: white ;
+  color: white;
+  float: right;
 }
 
 .hightlight {
