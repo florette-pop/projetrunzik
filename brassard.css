@@ -17,6 +17,12 @@ h1 {
 }
 
 /*header*/
+
+.img-usainbolt img {
+  float: left;
+  width: 10px;
+}
+
 nav {
   background-color: #2c2626;
   padding-bottom: 60px;
