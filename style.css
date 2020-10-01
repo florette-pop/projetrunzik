@@ -278,7 +278,6 @@ footer {
 
 .rs {
   font-size: 18px;
-  text-transform: uppercase;
   float: left;
   width: 30%;
   font-family: "BarlowSemiCondensed-Regular";
@@ -299,6 +298,7 @@ footer {
   float: left;
   width: 30%;
   font-family: "BarlowSemiCondensed-Regular";
+  line-height: 30px;
 }
 
 .down a {
@@ -308,6 +308,7 @@ footer {
 }
 
 .mail {
+  font-size: 18px;
   float: right;
   position: relative;
   width: 25%;

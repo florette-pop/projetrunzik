@@ -15,6 +15,7 @@ body {
 }
 
 /*header*/
+
 nav {
   background-color: #2c2626;
   padding-bottom: 60px;
@@ -86,14 +87,10 @@ li a {
 }
 
 /* body*/
+
 .titre {
   font-family: "Audiowide-Regular";
 font-size: 36px;
-}
-
-.hightlight {
-  text-transform: uppercase;
-  font-size: 24px;
 }
 
 .paragraph {
@@ -106,9 +103,13 @@ font-size: 36px;
 }
 
 /*Footer*/
+
+footer {
+  padding-top: 50px;
+}
+
 .rs {
   font-size: 18px;
-  text-transform: uppercase;
   float: left;
   width: 30%;
   font-family: "BarlowSemiCondensed-Regular";
@@ -118,7 +119,7 @@ font-size: 36px;
 .logo {
   height: 30px;
   width: 30px;
-  margin-left: 5px;
+  margin-left: 3px;
   margin-right: 5px;
 }
 
@@ -129,26 +130,27 @@ font-size: 36px;
   float: left;
   width: 30%;
   font-family: "BarlowSemiCondensed-Regular";
+  line-height: 30px;
 }
 
-.footer a {
+.down a {
   color: black;
   text-align: center;
   font-family: "BarlowSemiCondensed-Regular";
 }
 
 .mail {
+  font-size: 18px;
   float: right;
   position: relative;
-  width: 30%;
+  width: 25%;
   text-align: center;
   font-family: "BarlowSemiCondensed-Regular";
-  margin-right: 10px;
 }
 
 .copyright {
   text-align: center;
   font-family: "BarlowSemiCondensed-Regular";
   font-size: 12px;
-  padding: 0;
+  padding-top: 110px;
 }
