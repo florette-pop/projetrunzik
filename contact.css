@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #2C2626;
+  padding-bottom: 60px;
+  padding-top: 10px;
+}
+
+header ul {
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+header ul li {
+  float : left;
+  margin: 10px 10px 10px 10px;
+  list-style: none;
+}
+
+li a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 70px;
+}
+
+.logos {
+  float: right;
+}
+
+.logos img {
+ width: 25px;
+ margin-top: 5px;
+ margin-left: 15px;
+ margin-right: 15px;
+}
+
+.logo-burger {
+  width: 25px;
+  margin-left: 30px;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  background-color: #F7FFDD;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  padding: 60px;
+}
+
+input {
+  padding: 10px;
+  margin: 50px;
+}
+
+.button {
+  margin-left: 250px;
+  border-radius: 4px;
+}
+
+hr {
+  width: 90%;
+  margin-left: 65px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: black;
+}
+
+.social {
+  text-align: center;
+  font-size: 18px;
+  background-color: #F7FFDD;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  padding: 60px;
+}
+
+.social a {
+  font-size: 40px;
+}
+
+.map {
+  text-align: center;
+  background-color: #F7FFDD;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 60px;
+}
+
+/*;
+.vertical-line {
+  border-left: 10px solid;
+  display: inline-block;
+  height: 10px;
+  float: left;
+  position: absolute;
+}
+
+.vertical-line1 {
+  display: inline-block;
+  height: 10px;
+  float: right;
+  position: absolute;
+}
+*/
+
+.info {
+  text-align: center;
+  font-size: 24px;
+  padding: 60px;
+  background-color: #F7FFDD;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.phone {
+  float: left;
+  width: 33%;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text {
+  text-align: center;
+}
+
+.mail {
+  float: left;
+  width: 33%;
+}
+
+.adress {
+  float: right;
+  width: 33%;
+}
+
+/*Footer*/
+
+.rs {
+  font-size: 18px;
+  text-transform: uppercase;
+  float: left;
+  width: 30%;
+  font-family: "BarlowSemiCondensed-Regular";
+  margin-left: 30px;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.liens ul {
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  float: left;
+  width: 30%;
+  font-family: "BarlowSemiCondensed-Regular";
+}
+
+.footer a {
+  color: black;
+  text-align: center;
+  font-family: "BarlowSemiCondensed-Regular";
+}
+
+.mail {
+  float: right;
+  position: relative;
+  width: 30%;
+  text-align: center;
+  font-family: "BarlowSemiCondensed-Regular";
+  margin-right: 10px;
+}
+
+.copyright {
+  text-align: center;
+  font-family: "BarlowSemiCondensed-Regular";
+  font-size: 12px;
+  padding: 0;
+}
