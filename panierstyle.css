@@ -159,9 +159,13 @@ line-height: 35px;
 }
 
 /*Footer*/
+
+footer {
+  padding-top: 50px;
+}
+
 .rs {
   font-size: 18px;
-  text-transform: uppercase;
   float: left;
   width: 30%;
   font-family: "BarlowSemiCondensed-Regular";
@@ -171,7 +175,7 @@ line-height: 35px;
 .logo {
   height: 30px;
   width: 30px;
-  margin-left: 5px;
+  margin-left: 3px;
   margin-right: 5px;
 }
 
@@ -182,26 +186,27 @@ line-height: 35px;
   float: left;
   width: 30%;
   font-family: "BarlowSemiCondensed-Regular";
+  line-height: 30px;
 }
 
-.footer a {
+.down a {
   color: black;
   text-align: center;
   font-family: "BarlowSemiCondensed-Regular";
 }
 
 .mail {
+  font-size: 18px;
   float: right;
   position: relative;
-  width: 30%;
+  width: 25%;
   text-align: center;
   font-family: "BarlowSemiCondensed-Regular";
-  margin-right: 10px;
 }
 
 .copyright {
   text-align: center;
   font-family: "BarlowSemiCondensed-Regular";
   font-size: 12px;
-  padding: 0;
+  padding-top: 110px;
 }
