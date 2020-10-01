@@ -1,6 +1,9 @@
-* {/*global*/
+html,
+body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  width: 100%;
 }
 @font-face {
   font-family: "Audiowide-Regular";
@@ -13,41 +16,44 @@
 
 /*header*/
 nav {
-  background-color: #2C2626;
+  background-color: #2c2626;
   padding-bottom: 60px;
   padding-top: 10px;
 }
 
-header ul {
-  margin-left: 10%;
+.nav-bar-tabs {
+  margin-left: 11%;
   margin-top: 10px;
   font-family: "BarlowSemiCondensed-Regular";
 }
 
-header ul li {
-  float : left;
-  margin: 10px 10px 10px 10px;
+.nav-bar-tabs li {
+  float: left;
+  margin: 10px 30px 10px 30px;
   list-style: none;
   font-family: "BarlowSemiCondensed-Regular";
 }
 
 li a {
   color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
   text-decoration: none;
-  margin-left: 70px;
   font-family: "BarlowSemiCondensed-Regular";
-
 }
 
-.logos {
+.nav-logos {
   float: right;
+  margin-right: 25px;
 }
 
-.logos img {
- width: 25px;
- margin-top: 5px;
- margin-left: 15px;
- margin-right: 15px;
+.nav-logos img {
+  width: 25px;
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .logo-burger {
@@ -56,36 +62,69 @@ li a {
 }
 
 .logo-principal {
+  margin-top: 7px;
+  margin-left: 3px;
   float: left;
   width: 120px;
 }
 
-.titre{
+.container {
+  position: relative;
+}
+
+.runner {
+  width: 100%;
+  height: 75%;
+}
+
+.text {
+  position: absolute;
+  top: 140px;
+  right: 200px;
+  color: white;
+  width: 300px;
+}
+
+.titre {
   font-family: "Audiowide-Regular";
 }
-.paragraph{
+
+.hightlight {
+  text-transform: uppercase;
+}
+
+.paragraph {
   font-family: "BarlowSemiCondensed-Regular";
 }
 
+.paragraph p {
+  text-align: justify;
+}
 
 /*Footer*/
-.footer {
-	width: 100%;
-}
 
 .rs {
-	font-size: 25px;
-	float: left;
-	width: 33%;
+  font-size: 18px;
+  text-transform: uppercase;
+  float: left;
+  width: 30%;
   font-family: "BarlowSemiCondensed-Regular";
+  margin-left: 30px;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .liens ul {
-	text-align: center;
-	list-style: none;
-	text-decoration: none;
-	float: left;
-	width: 33%;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  float: left;
+  width: 30%;
   font-family: "BarlowSemiCondensed-Regular";
 }
 
@@ -96,14 +135,17 @@ li a {
 }
 
 .mail {
-	float: right;
-	position: relative;
-	width: 20%;
-	text-align: center;
+  float: right;
+  position: relative;
+  width: 30%;
+  text-align: center;
   font-family: "BarlowSemiCondensed-Regular";
+  margin-right: 10px;
 }
 
-h4 {
-	text-align: center;
+.copyright {
+  text-align: center;
   font-family: "BarlowSemiCondensed-Regular";
+  font-size: 12px;
+  padding: 0;
 }
