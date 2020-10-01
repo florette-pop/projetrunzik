@@ -1,0 +1,187 @@
+/*global*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 50px;
+  padding-top: 0px;
+  padding-left: 200px;
+  padding-bottom: 0;
+}
+
+/*header*/
+
+nav {
+  background-color: #2c2626;
+  padding-bottom: 60px;
+  padding-top: 10px;
+}
+
+.nav-bar-tabs {
+  margin-left: 11%;
+  margin-top: 10px;
+  font-family: "BarlowSemiCondensed-Regular";
+}
+
+.nav-bar-tabs li {
+  float: left;
+  margin: 10px 30px 10px 30px;
+  list-style: none;
+  font-family: "BarlowSemiCondensed-Regular";
+}
+
+li a {
+  color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: "BarlowSemiCondensed-Regular";
+}
+
+.nav-logos {
+  float: right;
+  margin-right: 25px;
+}
+
+.nav-logos img {
+  width: 25px;
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.logo-burger {
+  width: 25px;
+  margin-left: 30px;
+}
+
+.logo-principal {
+  margin-top: 7px;
+  margin-left: 3px;
+  float: left;
+  width: 120px;
+}
+
+
+.bg-assistance {
+  background-image: url(images/femmes_fond_sombre.jpg);
+  background-size: cover;
+  padding: 200px;
+}
+
+/*Section 1*/
+
+.main-title {
+  text-align: center;
+}
+
+.row-container {
+  width: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 100px;
+}
+
+.headset-container {
+  width: 40%;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
+}
+
+.headset-name {
+  text-align: center;
+  padding: 0;
+  margin-left: 0;
+  font-size: 18px;
+}
+
+.description-container {
+  display: block;
+  margin-left: 100px;
+  color: #786464;
+  font-size: 14px;
+}
+
+.button-learn-more-container {
+  text-align: center;
+}
+
+.product-description h2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.product-description p {
+  text-align: center;
+}
+
+
+
+
+/*Footer*/
+.rs {
+  font-size: 18px;
+  text-transform: uppercase;
+  float: left;
+  width: 30%;
+  font-family: "BarlowSemiCondensed-Regular";
+  margin-left: 30px;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.liens ul {
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  float: left;
+  width: 30%;
+  font-family: "BarlowSemiCondensed-Regular";
+}
+
+.footer a {
+  color: black;
+  text-align: center;
+  font-family: "BarlowSemiCondensed-Regular";
+}
+
+.mail {
+  float: right;
+  position: relative;
+  width: 30%;
+  text-align: center;
+  font-family: "BarlowSemiCondensed-Regular";
+  margin-right: 10px;
+}
+
+.copyright {
+  text-align: center;
+  font-family: "BarlowSemiCondensed-Regular";
+  font-size: 12px;
+  padding: 0;
+}
+
