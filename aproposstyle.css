@@ -15,6 +15,9 @@ body {
 }
 
 /*header*/
+nav a:hover {
+  color: #f32405;
+}
 
 nav {
   background-color: #2c2626;

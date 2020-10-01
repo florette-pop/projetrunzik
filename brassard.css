@@ -17,6 +17,10 @@ h1 {
 }
 
 /*header*/
+nav a:hover {
+  color: #f32405;
+}
+
 
 .img-usainbolt img {
   float: left;
