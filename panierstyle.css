@@ -72,11 +72,6 @@ li a {
   position: relative;
 }
 
-.runner {
-  width: 100%;
-  height: 75%;
-}
-
 .text {
   position: absolute;
   top: 140px;
@@ -88,7 +83,24 @@ li a {
 /* body*/
 .titre {
   font-family: "Audiowide-Regular";
-font-size: 36px;
+  font-size: 36px;
+}
+
+.products{
+  font-family: "BarlowSemiCondensed-Regular";
+  font-size: 18px;
+}
+.quantity{
+  font-family: "BarlowSemiCondensed-Regular";
+  font-size: 18px;
+}
+.price{
+  font-family: "BarlowSemiCondensed-Regular";
+  font-size: 18px;
+}
+.total{
+  font-family: "BarlowSemiCondensed-Regular";
+  font-size: 18px;
 }
 
 .hightlight {
