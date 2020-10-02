@@ -6,8 +6,8 @@ body {
   width: 100%;
 }
 @font-face {
-  font-family: "Audiowide-Regular";
-  src: url("./typo/Audiowide-Regular.ttf");
+  font-family: "BarlowSemiCondensed-ExtraBoldItalic";
+  src: url("./typo/BarlowSemiCondensed-ExtraBoldItalic.ttf");
 }
 @font-face {
   font-family: "BarlowSemiCondensed-Regular";
@@ -84,7 +84,7 @@ tr {
 }
 
 .titre {
-  font-family: "Audiowide-Regular";
+  font-family: "BarlowSemiCondensed-ExtraBoldItalic";
   font-size: 30px;
   width: 20%;
   margin: 0 auto;
@@ -96,7 +96,7 @@ tr {
 }
 
 .products {
-  font-family: "BarlowSemiCondensed-Regular";
+  font-family:"BarlowSemiCondensed-Regular";
   font-size: 24px;
   font-weight: bold;
   width: 100px;
