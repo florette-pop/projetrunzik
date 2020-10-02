@@ -6,8 +6,8 @@
 }
 
 @font-face {
-  font-family: "Audiowide-Regular";
-  src: url("./typo/Audiowide-Regular.ttf");
+  font-family: "BarlowSemiCondensed-ExtraBoldItalic";
+  src: url("./typo/BarlowSemiCondensed-ExtraBoldItalic.ttf");
 }
 @font-face {
   font-family: "BarlowSemiCondensed-Regular";
@@ -15,7 +15,6 @@
 }
 
 p,
-h1,
 h2,
 h4,
 h5,
@@ -26,7 +25,9 @@ h6 {
 
 h1 {
   color: #fff;
-  font-size: 50px;
+  font-family: "BarlowSemiCondensed-ExtraBoldItalic";
+  text-align: center;
+  font-size: 36px;
   padding-top: 0px;
   padding-left: 200px;
   padding-bottom: 0;
@@ -47,6 +48,7 @@ nav {
   margin-left: 11%;
   margin-top: 10px;
   font-family: "BarlowSemiCondensed-Regular";
+  font-size: 18px;
 }
 
 .nav-bar-tabs li {
@@ -54,6 +56,7 @@ nav {
   margin: 10px 30px 10px 30px;
   list-style: none;
   font-family: "BarlowSemiCondensed-Regular";
+  font-size: 18px;
 }
 
 li a {
@@ -64,6 +67,7 @@ li a {
   font-weight: bold;
   text-decoration: none;
   font-family: "BarlowSemiCondensed-Regular";
+  font-size: 18px;
 }
 
 .nav-logos {
@@ -138,7 +142,7 @@ li a {
 
 .product-description h2 {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .product-description p {
@@ -176,6 +180,7 @@ footer {
   float: left;
   width: 30%;
   font-family: "BarlowSemiCondensed-Regular";
+  font-size: 14px;
   line-height: 30px;
 }
 
@@ -183,6 +188,7 @@ footer {
   color: black;
   text-align: center;
   font-family: "BarlowSemiCondensed-Regular";
+  font-size: 14px;
 }
 
 .mail {
