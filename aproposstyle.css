@@ -6,8 +6,8 @@ body {
   width: 100%;
 }
 @font-face {
-  font-family: "Audiowide-Regular";
-  src: url("./typo/Audiowide-Regular.ttf");
+  font-family: "BarlowSemiCondensed-ExtraBoldItalic";
+  src: url("./typo/BarlowSemiCondensed-ExtraBoldItalic.ttf");
 }
 @font-face {
   font-family: "BarlowSemiCondensed-Regular";
@@ -29,6 +29,7 @@ nav {
   margin-left: 11%;
   margin-top: 10px;
   font-family: "BarlowSemiCondensed-Regular";
+  font-size: 18px;
 }
 
 .nav-bar-tabs li {
@@ -36,6 +37,7 @@ nav {
   margin: 10px 30px 10px 30px;
   list-style: none;
   font-family: "BarlowSemiCondensed-Regular";
+  font-size: 18px;
 }
 
 li a {
@@ -46,6 +48,7 @@ li a {
   font-weight: bold;
   text-decoration: none;
   font-family: "BarlowSemiCondensed-Regular";
+  font-size: 18px;
 }
 
 .nav-logos {
@@ -87,12 +90,14 @@ li a {
   right: 200px;
   color: white;
   width: 300px;
+  font-size: 18px;
+  font-family: "BarlowSemiCondensed-Regular";
 }
 
 /* body*/
 
 .titre {
-  font-family: "Audiowide-Regular";
+  font-family: "BarlowSemiCondensed-ExtraBoldItalic";
   font-size: 36px;
 }
 
@@ -116,6 +121,7 @@ footer {
   float: left;
   width: 30%;
   font-family: "BarlowSemiCondensed-Regular";
+  font-size: 14px;
   margin-left: 30px;
 }
 
@@ -140,6 +146,7 @@ footer {
   color: black;
   text-align: center;
   font-family: "BarlowSemiCondensed-Regular";
+  font-size: 18px;
 }
 
 .mail {
