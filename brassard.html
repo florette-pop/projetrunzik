@@ -23,11 +23,31 @@
           <img class="logo-burger" src="images/menu_burger.png" alt="logo-burger-menu" />
         </li>
       </ul>
-      <div class="nav-logos">
-        <img src="images/loupe.png" alt="logo-loupe-recherche" />
-        <img src="images/login.png" alt="logo-login" />
-        <a href="panier.html" title="basket-page"><img src="images/cart3.png" alt="logo-panier" /></a>
-      </div>
+      
+
+
+
+      <ul class="nav-logos">
+        <li><img src="images/loupe.png" alt="logo-loupe-recherche" /></li>
+        <li><img src="images/login.png" alt="logo-login" /></li>
+        <li><a href="panier.html" text=""><img src="images/cart3.png" alt="logo-panier" /></a>
+          <ul>
+            <li id="content-panier"></li>
+            <li><a href="#">Sous-item 2</a></li>
+            <li><a href="#">Sous-item 3</a></li>
+          </ul>
+        </li>
+      </ul>
+
+
+
+
+
+
+
+
+
+
     </nav>
     <img class="banner" src="images/Capture d’écran du 2020-10-01 17-35-16.png" alt="man with headset" />
   </header>
@@ -39,7 +59,7 @@
         <img class="headset-picture" src="images/brassars_bleu.png" alt="headset-picture" />
       </div>
 
-      <h2 class="headset-name">Casque Run’Zik</h2>
+      <h2 id="produit" class="headset-name">Casque Run’Zik</h2>
       <div class="product-colour">
         <div class="circle blue"></div>
         <div class="circle red"></div>
@@ -60,7 +80,7 @@
       </div>
 
       <div class="button-learn-more-container">
-        <p class="learn-more-button">Découvrir</p>
+        <input class="learn-more-button" id="add" type="submit" name="add" value="Ajouter au panier">
       </div>
     </div>
 

@@ -61,10 +61,30 @@ li a {
   font-size: 18px;
 }
 
+/*menu panier*/
+
 .nav-logos {
-  float: right;
-  margin-right: 25px;
+  
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 20px;
 }
+.nav-logos li {
+  list-style: none;
+  float:left;
+  margin:auto;
+  padding:0;
+  background-color:#9e8b8b;
+}
+
+.nav-logos li a {
+ display:block;
+ width:100px;
+ color:white;
+ text-decoration:none;
+ padding:5px;
+}
+
 
 .nav-logos img {
   width: 25px;
@@ -72,6 +92,26 @@ li a {
   margin-left: 15px;
   margin-right: 15px;
 }
+
+.nav-logos li ul {
+  display:none;
+  }
+
+.nav-logos li:hover ul {
+    display:block;
+    }
+ .nav-logos li:hover ul li {
+    float:none;
+    }
+
+
+  .nav-logos li ul {
+  position:absolute;
+  right: 0px;
+  top: 85px;
+  }
+
+/*end*/
 
 .logo-burger {
   width: 25px;
