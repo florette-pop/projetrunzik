@@ -1,111 +1,67 @@
-
-/*
-document.querySelector('#add').addEventListener('click', function addPanier(e){
-
-  let parentPanierName = document.querySelector('#content-panier-name');
-  let price = document.querySelector('#price').innerHTML;
-  let product = document.querySelector('#produit').innerHTML;
-  let quantity = document.querySelector('#quantity').value;
-  let totalPrice = ((parseInt(price))*(parseInt(quantity)));
-  
-  if (product === 'Casque Run’Zik') {
-  localStorage.setItem('casque', [product,quantity,price,totalPrice]);
-  document.querySelector('#content-panier-name').innerHTML = localStorage.getItem('casque').split(',')[0];
-  document.querySelector('#content-panier-quantity').innerHTML = localStorage.getItem('casque').split(',')[1];
-  document.querySelector('#content-panier-price').innerHTML = localStorage.getItem('casque').split(',')[2];
-  document.querySelector('#content-panier-total-price').innerHTML = localStorage.getItem('casque').split(',')[3];
-  
-  }
-  
-})
-*/
-/*
-
 const cart = {
-  listeProduits: [],
-  getTotalPrice() {
-    return 0;
-  },
-  getTotalQtt() {
-    return 0;
-  },
-  addProduct(product) {
-    let indexProductExist = this.getIndexProductExist(product);
-    if (indexProductExist == -1) {
-      //Ajout d'un nouveau produit
-      this.listeProduits.push(product)
-    } else {
-      this.listeProduits[indexProductExist].quantity += product.quantity
+  productList: [],
+  productLists(){
+    if (localStorage.getItem('cart')) {
+      this.productList = JSON.parse(localStorage.getItem('cart')).productList;
     }
   },
-  getIndexProductExist(product) {
+  addProduct(product){
+    let indexProductExist = this.getIndexProductExist(product);
+    if(indexProductExist == -1){
+      //Ajout d'un nouveau produit
+      this.productList.push(product)
+    } else {
+      this.productList[indexProductExist].quantity += product.quantity
+    }
+  },
+  getIndexProductExist(product){
     let indexPExist = -1;
-    for (let p in this.listeProduits) {
-      if (this.listeProduits[p].id == product.id) {
+    for(let p in this.productList){
+      if(this.productList[p].name == product.name) {
         indexPExist = p;
       }
     }
     return indexPExist;
   },
-  toString() {
+  toString(){
     console.log(this);
   }
 };
-let currentCard = localStorage.getItem('cart');
-console.log(JSON.parse(currentCard));
 
+cart.productLists();
+console.log(cart);
 
-*/
-//data-product ="brasard"  dans html à coter de id  après dataSet
-
-
-/*
-
-
-document.querySelector('#add').addEventListener('click', function addPanier(e){
-
-  let product = document.querySelector('#produit');
-
- 
-
-const panier = {
-  price: document.querySelector('#price').innerHTML,
-  product: document.querySelector('#produit').innerHTML,
-  quantity: document.querySelector('#quantity').value,
-}
-console.log(panier);
-
-localStorage.setItem(product.dataset.product,JSON.stringify(panier));
-
-})
-
-*/
-
-
-
-const cart = {
-  listeProduits: [],
-  addProduct(addProduct) {
-  this.listeProduits.push(addProduct);
+document.querySelector('#add').addEventListener('click', function(){
+  const product = {
+    name: document.querySelector('#produit').innerHTML,
+    price: parseInt(document.querySelector('#price').innerHTML),
+    quantity: parseInt(document.querySelector('#quantity').value),
   }
-}
+  console.log(product);
+  cart.addProduct(product);
+  localStorage.setItem('cart',JSON.stringify(cart));
 
 
-
-document.querySelector('#add').addEventListener('click', function addPanier(e){
-
-
-const product = {
-  price: document.querySelector('#price').innerHTML,
-  product: document.querySelector('#produit').innerHTML,
-  quantity: document.querySelector('#quantity').value,
-}
-
-
-cart.addProduct(product);
-
-localStorage.setItem('cart',JSON.stringify(cart));
+  
 
 })
 
-//probleme savoir ajouter chaque produit car, la le produit remplace un autre
+let currentCard = JSON.parse(localStorage.getItem('cart'));
+  
+console.log(currentCard.productList);
+
+
+  
+  for (let index = 0; index < currentCard.productList.length; index++) {
+
+    document.querySelector('#add-panier').innerHTML += '<li>Produits :</li><li id="content-panier-name'+index+'"></li><li>Prix :</li><li id="content-panier-price'+index+'"></li><li>Quantité :</li><li id="content-panier-quantity'+index+'"></li>';
+    
+
+
+    document.querySelector('#content-panier-name'+index).innerHTML = currentCard.productList[index].name;
+    document.querySelector('#content-panier-price'+index).innerHTML = currentCard.productList[index].price;
+    document.querySelector('#content-panier-quantity'+index).innerHTML = currentCard.productList[index].quantity;
+    
+    
+  }
+

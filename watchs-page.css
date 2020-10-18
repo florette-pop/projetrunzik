@@ -19,9 +19,14 @@ nav a:hover {
   color: #f32405;
 }
 
+.img-usainbolt img {
+  float: left;
+  width: 10px;
+}
+
 nav {
   background-color: #2c2626;
-  padding-bottom: 60px;
+  padding-bottom: 10px;
   padding-top: 10px;
 }
 
@@ -29,6 +34,7 @@ nav {
   margin-left: 11%;
   margin-top: 10px;
   font-family: "BarlowSemiCondensed-Regular";
+  font-size: 18px;
 }
 
 .nav-bar-tabs li {
@@ -36,6 +42,7 @@ nav {
   margin: 10px 30px 10px 30px;
   list-style: none;
   font-family: "BarlowSemiCondensed-Regular";
+  font-size: 18px;
 }
 
 li a {
@@ -46,12 +53,32 @@ li a {
   font-weight: bold;
   text-decoration: none;
   font-family: "BarlowSemiCondensed-Regular";
+  font-size: 18px;
 }
 
+/*menu panier*/
+
 .nav-logos {
-  float: right;
-  margin-right: 25px;
+  
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 20px;
 }
+.nav-logos li {
+  list-style: none;
+  float:left;
+  margin:auto;
+  background-color:#2c2626;
+}
+
+.nav-logos li  {
+ display:block;
+ width:100px;
+ color:white;
+ text-decoration:none;
+ padding:5px;
+}
+
 
 .nav-logos img {
   width: 25px;
@@ -60,10 +87,30 @@ li a {
   margin-right: 15px;
 }
 
-.logo-burger {
-  width: 25px;
-  margin-left: 30px;
-}
+.nav-logos li ul {
+  display:none;
+  }
+
+.nav-logos li:hover ul {
+    display:block;
+    padding: 20px;
+    background-color: rgb(99, 93, 93);
+    }
+ .nav-logos li:hover ul li {
+    float:none;
+    color: rgb(2, 0, 0);
+    padding: 20px 30px 20px 30px;
+    background-color: rgb(99, 93, 93);
+    color: #fff;
+    }
+
+
+  .nav-logos li ul {
+  position:absolute;
+  right: 0px;
+  top: 85px;
+  }
+
 
 .logo-principal {
   margin-top: 7px;

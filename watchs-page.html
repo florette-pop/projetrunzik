@@ -22,11 +22,22 @@
           <img class="logo-burger" src="images/menu_burger.png" alt="logo-burger-menu" />
         </li>
       </ul>
-      <div class="nav-logos">
-        <img src="images/loupe.png" alt="logo-loupe-recherche" />
-        <img src="images/login.png" alt="logo-login" />
-        <a href="panier.html" title="basket-page"><img src="images/cart3.png" alt="logo-panier" /></a>
-      </div>
+      <ul class="nav-logos">
+        <li><img src="images/loupe.png" alt="logo-loupe-recherche" /></li>
+        <li><img src="images/login.png" alt="logo-login" /></li>
+        <li><a href="panier.html" text=""><img src="images/cart3.png" alt="logo-panier" /></a>
+          <ul>
+            <li>Produits :</li>
+            <li id="content-panier-name"></li>
+            <li>Prix :</li>
+            <li id="content-panier-price"></li>
+            <li>Quantité :</li>
+            <li id="content-panier-quantity"></li>
+            <li>Total :</li>
+            <li id="content-panier-total-price"></li>
+          </ul>
+        </li>
+      </ul>
     </nav>
     <img class="banner" src="images/watchs-page-banner.png" alt="man using smartwatch" />
   </header>
@@ -35,10 +46,9 @@
   <div class="row-container">
     <div class="headset-container">
       <div class="headset-picture-container">
-        <img class="headset-picture" src="images/watch-run'zik.png" alt="headset-picture" />
+        <img class="headset-picture" src="images/brassars_bleu.png" alt="headset-picture" />
       </div>
-
-      <h2 class="headset-name">Montre Run’Zik S Plus</h2>
+      <h2 id="produit" class="headset-name" data-product="montre">montre Run’Zik</h2>
       <div class="product-colour">
         <div class="circle blue"></div>
         <div class="circle red"></div>
@@ -49,17 +59,22 @@
         <div class="circle cyan"></div>
       </div>
       <div class="description-container">
-        <p class="product-description">Montre GPS multisport</br>
-          Fonction Musique</br>
-          Garmin Pay Plug : paiement sans contact avec la montre</br>
-          Smart notifications : affichage des e-mails, sms et alertes</br>
-          Poids : 69 g</br>
+        <p class="product-description">Bluetooth: v4.2</br>
+          Portée: 10 mètres</br>
+          Autonomie en veille: 10 jours</br>
+          Autonomie en fonctionnement: 6 heures</br>
+          Temps de chargement: 2h</br>
           Poids: 30g</br>
-          Autonomie : jusqu'à 7 jours en mode smartwatch</p>
+          Garantie: 2 ans</p>
+          <div class="price-quantity">
+            <p class="price" id="price">150</p>
+            <label for="quantity">Quantité :</label>
+            <input type="text" name="quantity" id="quantity">
+          </div>
       </div>
 
       <div class="button-learn-more-container">
-        <p class="learn-more-button">Découvrir</p>
+        <input class="learn-more-button" id="add" type="submit" name="add" value="Ajouter au panier">
       </div>
     </div>
 

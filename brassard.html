@@ -31,28 +31,17 @@
         <li><img src="images/loupe.png" alt="logo-loupe-recherche" /></li>
         <li><img src="images/login.png" alt="logo-login" /></li>
         <li><a href="panier.html" text=""><img src="images/cart3.png" alt="logo-panier" /></a>
-          <ul>
-            <li>Produits :</li>
-            <li id="content-panier-name"></li>
-            <li>Prix :</li>
-            <li id="content-panier-price"></li>
-            <li>Quantité :</li>
-            <li id="content-panier-quantity"></li>
-            <li>Total :</li>
-            <li id="content-panier-total-price"></li>
+
+
+
+          <ul id="add-panier">
+           
           </ul>
+
+
+          
         </li>
       </ul>
-
-
-
-
-
-
-
-
-
-
     </nav>
     <img class="banner" src="images/Capture d’écran du 2020-10-01 17-35-16.png" alt="man with headset" />
   </header>
@@ -63,7 +52,6 @@
       <div class="headset-picture-container">
         <img class="headset-picture" src="images/brassars_bleu.png" alt="headset-picture" />
       </div>
-
       <h2 id="produit" class="headset-name" data-product="brassard">Casque Run’Zik</h2>
       <div class="product-colour">
         <div class="circle blue"></div>
@@ -93,6 +81,41 @@
         <input class="learn-more-button" id="add" type="submit" name="add" value="Ajouter au panier">
       </div>
     </div>
+
+    <div class="row-container">
+      <div class="headset-container">
+        <div class="headset-picture-container">
+          <img class="headset-picture" src="images/brassars_bleu.png" alt="headset-picture" />
+        </div>
+        <h2 id="produit" class="headset-name" data-product="brassard">Montre Run’Zik</h2>
+        <div class="product-colour">
+          <div class="circle blue"></div>
+          <div class="circle red"></div>
+          <div class="circle green"></div>
+          <div class="circle grey"></div>
+          <div class="circle orange"></div>
+          <div class="circle yellow"></div>
+          <div class="circle cyan"></div>
+        </div>
+        <div class="description-container">
+          <p class="product-description">Bluetooth: v4.2</br>
+            Portée: 10 mètres</br>
+            Autonomie en veille: 10 jours</br>
+            Autonomie en fonctionnement: 6 heures</br>
+            Temps de chargement: 2h</br>
+            Poids: 30g</br>
+            Garantie: 2 ans</p>
+            <div class="price-quantity">
+              <p class="price" id="price">150</p>
+              <label for="quantity">Quantité :</label>
+              <input type="text" name="quantity" id="quantity">
+            </div>
+        </div>
+  
+        <div class="button-learn-more-container">
+          <input class="learn-more-button" id="add" type="submit" name="add" value="Ajouter au panier">
+        </div>
+      </div>
 
     
 
